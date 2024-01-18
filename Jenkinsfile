@@ -20,4 +20,9 @@ pipeline {
   }
 
  }
+ post {
+  always {
+   echo 'Sending Email'
+  }
+ }
 }
